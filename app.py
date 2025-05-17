@@ -2,7 +2,7 @@ import streamlit as st
 st.title("Streamlit chatbot")
 import os
 os.environ["GOOGLE_API_KEY"]=st.secrets["GOOGLE_API_KEY"]
-import streamlit as st
+
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
